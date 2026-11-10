@@ -2,4 +2,4 @@
 
 Static frontend preview published with GitHub Pages.
 
-Updated 2026-11-10: brighter topic heat values and the comparison entry in the top filter toolbar.
+Updated 2026-11-10: bottom-left navigation control, 14px collapse label, consistent heat sorting controls, and collapsed-only navigation tooltip.

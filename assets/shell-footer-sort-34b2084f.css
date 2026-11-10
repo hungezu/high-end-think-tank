@@ -1,0 +1,8 @@
+@media (min-width: 1000px) {
+  .workspace > .sidebar { margin-bottom: 48px; }
+  .thinktank-ui .workspace .platform-sidebar-toggle.arco-btn { position: absolute; z-index: 3; top: auto; bottom: 24px; left: 24px; transform: none; display: inline-flex; align-items: center; justify-content: center; gap: 8px; width: auto; min-width: 32px; height: 32px; padding: 0 10px; border: 1px solid var(--border); border-radius: 4px; background: #fff; color: var(--text-secondary); font-size: 16px; transition: left 180ms ease-out, color 140ms ease-out, background-color 140ms ease-out; }
+  .thinktank-ui .workspace .platform-sidebar-toggle-label { font-size: 14px; line-height: 22px; }
+  .thinktank-ui .workspace.is-sidebar-collapsed .platform-sidebar-toggle.arco-btn { left: 4px; width: 24px; min-width: 24px; padding: 0; gap: 0; }
+.thinktank-ui .workspace:not(.is-sidebar-collapsed) .platform-sidebar-toggle:not(:has(.platform-sidebar-toggle-label))::after { content: "收起导航"; font-size: 14px; line-height: 22px; }
+}
+.ha-page .ha-topic-sort .arco-select .arco-select-view { --control-height: 32px; height: var(--control-height); line-height: calc(var(--control-height) - 2px); font-size: 14px; }

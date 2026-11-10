@@ -1,0 +1,5 @@
+@media (min-width: 1000px) {
+.thinktank-ui .workspace:not(.is-sidebar-collapsed) .platform-sidebar-toggle.arco-btn { justify-content: flex-start; width: calc(var(--platform-sidebar-slot) - 16px); padding: 0 8px; border-color: transparent; background: transparent; font-size: 14px; line-height: 22px; }
+.thinktank-ui .workspace:not(.is-sidebar-collapsed) .platform-sidebar-toggle.arco-btn:hover { background: rgba(255,255,255,.24); }
+.thinktank-ui .workspace:not(.is-sidebar-collapsed) .platform-sidebar-toggle.arco-btn:active { background: rgba(255,255,255,.48); }
+}
